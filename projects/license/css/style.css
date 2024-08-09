@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap');
+
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ #license {
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 24px;
+    filter: drop-shadow(5px 1px 2px #3e3a3a71);
+    background: linear-gradient(to bottom right,#fdca72, #ee9051 );
+} 
+
+ #address {
+    font-family: Raleway,"times new roman";
+} 
+
+#left-side  {
+    display: inline-block;
+    width: 65%;
+}
+
+
+#right-side img {
+    width: 100%;
+}
+
+#id-and-expiration div {
+    display: inline-block;
+    padding-right: 10px;
+    color: #000080;
+    font-size: 15px;
+    padding-bottom: 10px; 
+}
+
+#small-pic-container,
+#data-fields {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#small-pic-container img {
+    width: 70px;
+    opacity: 50%;
+}
+
+#data-left, 
+#data-right {
+    display: inline-block;
+    color: #000080;
+}
+
+#data-left span {
+    color: red;
+}
+
+#data-left {
+    padding-left: 5px;
+} 
+
+#data-right{
+    padding-left: 10px;
+}
+
+#data-right span {
+    color: red;
+}
+
+
+#signiture {
+    text-align: center;
+}
+
+#right-side {
+    display: inline-block;
+    width: 34%
+}
+
+
+
+h1 {
+   color: #000080;
+   font-size: xxx-large;
+   
+   
+}
+
+#left-side h4 {
+    background-color: #000080;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+
+#id-and-expiration span {
+    color: red;
+    font-weight: 600;
+}
+
+
+#signature {
+    color: purple;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Sofia, "cursive";
+}
+
+
+
+#donor,
+#real-id {
+    display: inline-block;
+}
+
+#donor-and-real-id {
+  margin-left: 35px;
+  padding-top: 10px;
+}
+
+#donor {
+    color: red;
+    margin-right: 10px;
+}
+
+.fa-star {
+    background-color: gold;
+    border-radius: 50%; 
+    padding: 4px;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+}   

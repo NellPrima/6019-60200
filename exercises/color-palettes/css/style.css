@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Monoton&family=Rubik+Mono+One&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3ebf3;
+}
+
+#big_title {
+    text-align: center;
+    font-size: 5rem;
+    padding: 2rem;
+    color: #9b7fa4;
+    text-shadow:2px 2px #ffa500;
+}
+
+
+.color_title1,
+.color_title2,
+.color_title3 {
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+
+
+
+#title_1,
+#title_2,
+#title_3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+#title_1 {
+    font-family: Dancing Script;
+    color: #b67786;
+}
+
+#title_2 {
+    font-family: "Rubik Mono One", monospace;
+    color: #00a34f;
+}
+
+#title_3 {
+    font-family: "Monoton", sans-serif;
+    color: #e1217a;
+}
+
+span {
+    color: #540d6e;
+}
+
+
+.text_hex {
+    font-size: 20px;
+}
+
+#color_palette_one {
+    padding: 10px;
+}
+
+#a1{
+    background-color:#9e4770;
+    color: white;
+    font-family: dancing script;
+    text-align: center;
+    padding: 24px;
+}
+
+#b1{
+    background-color: #b67786;
+    color: white;
+    font-family: dancing script;
+    text-align: center;
+    padding: 24px;
+}
+
+#c1{
+    background-color: #e096a3;
+    color: white;
+    font-family: dancing script;
+    text-align: center;
+    padding: 24px;
+}
+
+#d1{
+    background-color: #efa8b8;
+    color: white;
+    font-family: dancing script;
+    text-align: center;
+    padding: 24px;
+}
+
+#e1{
+    background-color: #F6cbdf;
+    color: white;
+    font-family: dancing script;
+    text-align: center;
+    padding: 24px;
+}
+
+#fairy_text,
+#fairy_hex {
+    text-shadow: 2px 2px rgb(203, 125, 194);
+}
+
+
+
+/* Color palette 2 */
+
+
+#a2{
+    background-color:#540d6e;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    padding: 24px;
+    text-align: center;
+}
+
+#b2{
+    background-color: #00a34f;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#c2{
+    background-color: #a379c9;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#d2{
+    background-color: #95df63;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#e2{
+    background-color: #eaeaea;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#pla_title,
+#pla_hex {
+    text-shadow: 2px 2px #5c5656;
+}
+
+/* Color Palette 3 */
+
+
+#a3{
+    background-color:#7e7105;
+    color: white;
+    font-family: "Monoton", sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#b3{
+    background-color: #6a8f06;
+    color: white;
+    font-family: "Monoton", sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#c3{
+    background-color: #e1217a;
+    color: white;
+    font-family: "Monoton", sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#d3{
+    background-color: #d1984b;
+    color: white;
+    font-family: "Monoton", sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#e3{
+    background-color: #e7dbb3;
+    color: white;
+    font-family: "Monoton", sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+
+
+
+
+

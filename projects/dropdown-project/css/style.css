@@ -1,0 +1,985 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Drop down menu start */
+
+#navbar {
+    background-image: url("../images/final.webp"); 
+    display: flex;
+    align-items: center;
+    background-size: contain;
+    
+   
+}
+
+
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #e07431;
+    padding: 24px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 1px #292828cf;
+    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: 900;
+   
+}
+
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 46px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    letter-spacing: 1.5px;
+    font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
+     position: relative;
+     z-index: 2;
+}
+
+
+
+.dropdown-container {
+    position: relative;
+    z-index: 1;
+    
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-menu a {
+    background-color: #f9f5f982; 
+    width: 100%;
+    min-width: 360px;
+    font-size: 20px;
+}
+
+#navbar .dropdown-menu a {
+    color: #292828;
+    text-shadow: 1px 1px #e1d6ce;
+    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+   
+}
+
+#navbar .dropdown-menu a:hover {
+    background-color: #e07431;
+    color:#f9f5f9;
+    
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* End dropdown menu */
+
+/* Hero code start */
+
+#hero {
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    aspect-ratio: 16/8;
+  
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+   
+   
+} 
+
+
+#hero h2 {
+    font-size: 8vw;
+    margin-bottom: 5px;
+    font-family: Lobster Two, 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: #e07431;
+}
+
+
+ .hero-content {
+    text-align: center;
+    text-shadow: 1px 2px black; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 60%;
+   
+ 
+}
+
+.wish {
+    text-shadow: 0 0 black; 
+    border-radius: 5px;
+    color:#d47a42;
+    font-size: 20px;
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    width: 350px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: quicksand;
+    display: block;
+    margin: 0 auto;
+}
+
+.wish:hover {
+    background-color: #e07431;
+    color: white;
+    border:2px solid#e07431;
+    text-shadow: 1px 1px #242322;
+}
+
+
+ 
+
+
+
+
+#hero h4 {
+    font-size: 3vw;
+    margin: 0px;
+    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+    color: #dbd2c9;
+}
+
+
+   
+
+/* Hero code end */
+
+
+
+/* Nina page start */
+
+.centered-layout {
+    width: 50%;
+    margin: 48px auto;
+    position: relative;
+   
+}
+
+.name,
+.bio {
+    text-align: center;
+    color: white;
+    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;  
+   
+}
+
+.name {
+    font-size: 35px;
+   
+    background-color: #333333;
+    border-radius: 2px;
+    
+}
+
+.bio {
+    border: 3px solid #292828;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px 20px 10px 10px;
+    text-shadow: 2px 2px black;
+    font-size: 25px;
+    background-color:#a09a8493;
+}
+
+
+.image {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    filter: drop-shadow(-4px 3px 3px #292828);
+}
+
+.background-image {
+   background-color: #d47a42;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nina page end */
+
+/* Nnedi page start */
+  #mermaid-img {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 0%; 
+} 
+
+/* Nnedi page end */
+
+/* Binya page start */
+
+
+#frog-img {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 0%; 
+} 
+
+/*Binya page end*/
+
+/* Parallax code for home page start */
+
+.content-home {
+    background-color:#fff7f0 ;
+    height: auto;
+}
+
+#about-h2 {
+    text-align: center;
+    padding: 100px;
+    color: #b38b72;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-family: Quicksand;
+}
+
+.text-animals {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    color: #b38b72;
+    font-family: ubuntu;
+    line-height: 40px;
+}
+
+.animal-paragraph {
+    font-size: 30px;
+}
+    
+
+.singlelayout {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.flex-animals {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 48px 0;
+}
+
+#ladydog {
+    width: 25vw;
+    border-radius: 2%;
+}
+
+.animal-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+span {
+    font-family: Lobster Two;
+    color: #e07431;
+   
+}
+
+
+
+
+/* Parallax code for home page start */
+
+/* Volunteer code start */
+
+.img-animal {
+    width: 30vw;
+    border-radius: 2%;
+}
+
+#single-three {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.animal-vou {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#howto {
+    text-align: center;
+    font-size: 55px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: Quicksand;
+    font-weight: 500;
+    color:#e07431;
+   
+}
+
+.one {
+    text-decoration: underline;
+    color: #e07431;
+    font-size: 30px;
+    font-family: Quicksand;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.paragraph1 {
+    font-size: 18px;
+    font-family: Ubuntu;
+    line-height: 30px;
+    color: #b38b72;
+    text-shadow: 1px 1px #ede5e1;
+   
+}
+
+/* Volunteer code end */
+
+/* Donate code start */
+#newbg {
+    background-color: #e07431;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.single-column-layout {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f9f5f9;
+    height: 100%;
+   
+}
+
+#newbg img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border: 6px solid #e07431; */
+    filter: drop-shadow(2px 2px 2px #242322);
+   
+}
+
+#newbg h2 {
+    text-align: center;
+    font-size: 55px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: Quicksand;
+    font-weight: 600;
+    color: #ede5e1;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+.flexmoney {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.form {
+   width: 420px;
+   height: 660px;
+   margin-bottom: 50px;
+   border-radius: 2%;
+   border: 4px solid #e1d6ce;
+   
+}
+
+.money-text {
+    font-size: 18px;
+    font-family: Ubuntu;
+    line-height: 30px;
+    color: #b38b72;
+    text-shadow: 1px 1px #ede5e1;
+    padding: 50px;
+}
+
+.thanks {
+    font-size: 25px;
+    font-family: Ubuntu;
+    line-height: 30px;
+    color: #e07431;
+    text-shadow: 1px 1px #ede5e1;
+    padding-bottom: 20px;
+}
+
+/* Donation forum start  */
+
+.donation-header {
+    text-align: center;
+    color: #e07431;
+    font-size: 30px;
+    font-family: Quicksand;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#money-donate {
+   padding-left: 20px;
+   padding-right: 20px;
+
+}
+
+.name-name {
+    font-family: Ubuntu;
+}
+
+.first-name {
+    padding-bottom: 20px;
+}
+
+.last-name {
+    padding-bottom: 20px;
+}
+
+.email {
+    padding-bottom: 20px;
+}
+
+.fa-credit-card {
+    color: #e07431;
+    font-size: 25px;
+    
+}
+
+#cash {
+    margin-top: 20px;
+}
+
+#monies {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#month-cvc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+    width: 80px;
+}
+
+
+
+#submit {
+    color: white;
+    background-color: #e07431;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.division {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#what-div {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+/* Donation forum end */
+
+/* Donate page end */
+
+/* Footer code start */
+
+#footer {
+    background-color: #e07431;
+    height: 30px;
+    text-align: center;
+    color:#e1d6ce;
+    font-family: Quicksand;
+    padding-top: 5px;
+}
+
+.footer3 {
+    background-color: #e1d6ce;
+    height: 30px;
+    text-align: center;
+    color:#e07431;
+    font-family: Quicksand;
+    padding-top: 5px;
+   
+
+}
+
+/* Footer code end */
+
+
+/*RESPONSIVENESS!!!!!!!! */
+
+/* Mobile responsiveness start */
+
+@media screen and (max-width: 1000px) {
+
+
+    #navbar #logo {
+        background-color: #e07431;
+        width: 100%;
+        font-size: 35px;
+        color: #f4f0ec;
+        text-align: center;
+       
+    }
+
+    
+#navbar a {
+    font-size: 20px;
+}
+
+#navbar {
+    flex-direction: column;
+}
+
+
+#about-h2 {
+    font-size: 40px;
+}
+ 
+.text-animals {
+    display: flex;
+    gap: 18px;
+    flex-direction: row;
+} 
+
+.animal-paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 400;
+    width: 400px;
+    
+}
+    
+
+
+.flex-animals {
+  flex-direction:column;
+  gap: 10px;
+ 
+}
+
+#owlboi {
+    flex-direction: column-reverse;
+}
+
+#ladydog {
+    width: 40vw;
+    border-radius: 2%;
+}
+
+ .animal-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+#hero {
+    position: relative;
+    overflow-y: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.hero-content {
+    gap: 10px;
+    position: relative;
+    top: 48%;
+}
+
+
+.wish {
+    font-size: 12px;
+    width: 250px;
+}
+
+
+
+#hero h2 {
+    font-size: 8vwpx;
+  
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #e07431;
+    padding: 24px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 1px #292828cf;
+    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: 900;
+   
+}
+
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 46px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    letter-spacing: 1.5px;
+    font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    z-index: 2;
+}
+
+
+.dropdown-menu a {
+    background-color: #f9f5f9d7; 
+    min-width: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#navbar .dropdown-menu a {
+    font-size: 20px;
+}
+
+/* Animal pages start */
+.centered-layout {
+    width: 90%;
+}
+
+.image {
+    width: 350px;
+}
+
+
+.bio {
+  line-height: 30px;
+  font-size: 22px;
+}
+
+
+
+
+/* Nina page end */
+
+/* Nnedi page start */
+  #mermaid-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+   
+} 
+
+/* Nnedi page end */
+
+/* Binya page start */
+
+
+#frog-img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 0%; 
+} 
+
+/*Binya page end*/
+
+/* volunteer code start */
+
+#single-three {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+#howto {
+    font-size: 50px; 
+}
+
+.one {
+    text-align: center;
+    line-height: 40px;
+}
+.paragraph1 {
+  text-align: center;
+  line-height: 30px;
+}
+
+/* Volunteer code end */
+
+
+/* Donate code start */
+
+
+.single-column-layout {
+    width: 80%;
+    border-radius: 5px; 
+}
+
+#newbg img {
+    width: 340px;  
+}
+
+#newbg h2 {
+    text-shadow: 1px 2px #2d2b29;
+}
+
+.flexmoney {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+
+
+.form {
+   width: 350px;
+   height: 700px;
+   margin-bottom: 50px;
+   border-radius: 2%;
+   border: 4px solid #e1d6ce;
+   
+}
+
+.money-text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.thanks {
+    font-size: 25px;
+    font-family: Ubuntu;
+    line-height: 30px;
+    color: #e07431;
+    text-shadow: 1px 1px #ede5e1;
+    padding-bottom: 20px;
+}
+
+/* Donation forum start  */
+
+.donation-header {
+    text-align: center;
+    color: #e07431;
+    font-size: 30px;
+    font-family: Quicksand;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#money-donate {
+   padding-left: 20px;
+   padding-right: 20px;
+
+}
+
+.name-name {
+    font-family: Ubuntu;
+}
+
+.first-name {
+    padding-bottom: 20px;
+}
+
+.last-name {
+    padding-bottom: 20px;
+}
+
+.email {
+    padding-bottom: 20px;
+}
+
+.fa-credit-card {
+    color: #e07431;
+    font-size: 25px;
+    
+}
+
+#cash {
+    margin-top: 20px;
+}
+
+#monies {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#month-cvc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+    width: 80px;
+}
+
+
+
+
+
+
+#submit {
+    color: white;
+    background-color: #e07431;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.division {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#what-div {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+/* Donation forum end */
+
+/* Donate page end */
+
+
+}
+
+
+@media screen and (min-width: 1001px)  {
+
+  
+    .hero-content {
+        gap: 10px;
+        position: relative;
+        top: 60%;
+    }
+    
+    .animal-paragraph {
+        font-size: 20px;
+        padding:px;
+    }
+
+    .singlelayout {
+        width: 900px;
+        
+    }
+
+    
+/* Animal pages start */
+.centered-layout {
+    width: 800px;
+}
+
+
+.image {
+    width: 400px;
+}
+
+
+.bio {
+    line-height: 33px;
+}
+
+
+
+/* Nina page end */
+
+/* Nnedi page start */
+  #mermaid-img {
+    width: 600px;
+} 
+
+/* Nnedi page end */
+
+/* Binya page start */
+
+
+#frog-img {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 0%;    
+} 
+
+/*Binya page end*/
+
+
+
+ 
+
+
+ 
+
+
+
+}
+
+
+
+/* Mobile responsiveness end */

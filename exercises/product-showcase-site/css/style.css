@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: blue;
+}
+
+#column_1 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#column_2 {
+   
+    width: 50%;
+    margin: 0 auto;
+}
+
+#column_3 {
+    
+    width: 50%;
+    margin: 0 auto;
+}

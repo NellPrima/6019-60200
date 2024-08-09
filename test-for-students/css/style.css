@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #ee638c, #d5406b);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, #ee638c, #d5406b);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px; 
+    padding-bottom: 12px; 
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #ee638c;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    color: #d5406b;
+    background: #f8f8f899;
+}
+
+#hero {
+    background-image: url("../images/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Style */
+
+.card-container {
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    background-color: #340c1bc8;
+    max-width: 650px;
+    max-height: 350px;
+    margin: 50px;
+    padding: 15px;
+}
+
+div#card p {
+    font-size: 20px;
+}
+
+/* Buttons Hover Style */
+
+div#card a {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 15px;
+    margin: 10px;
+}
+
+#button-1 a:hover {
+    color: #ffffff;
+    background: #ee638c;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+#button-2 a:hover {
+    color: #ffffff;
+    background: #ee638c;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+#hero .hero-content {
+    text-align: center;
+    color: white;
+}
+
+#hero a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 1px 1px 1px 1px;
+}
+
+/* Alphonzo */
+
+#background-a {
+    background: linear-gradient(to bottom, #ee638c, #d5406b);
+  
+}
+
+.card-1-container {
+    background-color: #ffffff3c;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 50px;
+}
+
+#alphonzo-card h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#alphonzo-card img {
+    border: 3px solid #ffffff;
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.card-1-container img {
+    display: block;
+    margin: auto;
+}
+
+#alphonzo-card p {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Macie */
+
+#background-m {
+    background: linear-gradient(to bottom, #ee638c, #d5406b);
+    background: blue;
+}
+
+.card-1-container {
+    /* background-color: #ffffff3c;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 50px; */
+    border: 2px solid red;
+}
+
+#macie-card h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#macie-card img {
+    border: 3px solid #ffffff;
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.card-1-container img {
+    display: block;
+    margin: auto;
+}
+
+#macie-card p {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Clenton */
+
+#background-c {
+    background: linear-gradient(to bottom, #ee638c, #d5406b);
+}
+
+.card-1-container {
+    background-color: #ffffff3c;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 50px;
+}
+
+#clenton-card h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#clenton-card img {
+    border: 3px solid #ffffff;
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.card-1-container img {
+    display: block;
+    margin: auto;
+}
+
+#clenton-card p {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Tablet Breaking Point */
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+    #navbar a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        padding: 24px;
+    }
+
+    #navbar #logo {
+        text-align: center;
+     }
+}
+
+/* Phone Breaking Point  */
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        padding: 24px;
+    }
+
+    #navbar #logo {
+       text-align: center;
+    }
+}

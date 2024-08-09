@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#center_layout {
+    width: 900px;
+    margin: 48px auto;
+    background-color: #fcfcfc;
+    border-radius: 10px;;
+}
+
+body {
+    background-color: #0b0e10;
+   
+}
+
+.center_txt {
+    text-align: center;
+    font-family: Museomoderno, Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px #101820;
+}
+
+.center_telly {
+    text-shadow: 0px 0px #101820;
+}
+
+h1 {
+    font-size: 25px;
+    color: #d3bc8d;
+    padding: 30px;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #101820;
+}
+
+
+#big_font {
+    font-size: 50px;
+    padding: 30px;
+}
+
+#smedium_font {
+    font-size: 30px;
+    background-color: #d3bc8d;
+    color: #fcfcfc;
+    
+}
+
+#larg_text {
+    font-size: 40px;
+    padding: 30px;
+    color:#008e97;
+}
+
+#small_txt2 {
+    font-size: 27px;
+    padding: 30px;
+    color: #d3bc8d;
+    border-radius: 5px;
+    border: 4px solid #d3bc8d;
+    background-color: #101820;
+
+}
+
+#small_txt3 {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #005778;
+    color: #fcfcfc;
+}
+
+#telly {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+/*flexbox for images*/
+#flex_img {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    align-items: center;
+    justify-content: center;
+}
+
+#saints {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#saints_helmet {
+    width: 350px;
+    
+}
+
+#dolphins {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 110px;
+   
+    
+}
+
+#dolphins_helmet {
+    width: 360px;
+}
+
+#vs {
+    font-size: 100px;
+    position: relative;
+    top: 150px;
+}
+
+#saints,
+#dolphins p {
+    color:#fcfcfc;
+    font-size: 20px;
+}
+
+#saints p {
+    background-color: #d3bc8d;
+}
+
+#dolphins p {
+    background-color: #fc4c02;
+}
+
+#flex_buttons {
+   padding: 100px;
+
+}
+
+#yes_bttn {
+    background-color: #d3bc8d;
+}
+
+#no_bttn {
+    background-color: #008e97;
+}
+
+#yes_bttn,
+#no_bttn {
+    margin: 30px;
+    padding: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+#yes_bttn  {
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 20px;
+    text-shadow: 1px 1px #101820;
+}
+
+#no_bttn  {
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 20px;
+    text-shadow: 1px 1px #101820;
+}
+
+#yes_bttn:hover {
+    background-color: #101820;
+    text-shadow: .5px 1px #d3bc8d;
+}
+
+#no_bttn:hover {
+    background-color: #fc4c02;
+}
+
+.fa-phone {
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 850px) {
+  
+
+    #center_layout {
+        width: 500px;
+        
+    }
+
+    #saints_helmet {
+        width: 150px;
+        
+    }
+    
+    #dolphins_helmet {
+        width: 170px;
+    }
+
+    #flex_img {
+        display: flex;
+        gap: 10px; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    #vs {
+        font-size: 40px;
+        margin-bottom: 220px;
+       
+    }
+    
+    #saints,
+    #dolphins p {
+        color:#fcfcfc;
+        font-size: 20px;
+    }
+
+    #dolphins {
+        margin-top: 30px;
+    }
+
+   
+    
+    #saints p {
+        background-color: #d3bc8d;
+        padding: 0 10px;
+    }
+
+    #saints_helmet {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #dolphins p {
+        background-color: #fc4c02;
+    }
+
+    #flex_buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #yes_bttn {
+        padding: 30px;
+    }
+
+    #no_bttn {
+        padding: 30px;
+        
+    }
+
+
+}
