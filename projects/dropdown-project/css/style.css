@@ -46,6 +46,7 @@
     font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
      position: relative;
      z-index: 2;
+     
 }
 
 
@@ -567,7 +568,7 @@ span {
 
 @media screen and (max-width: 1000px) {
 
-
+/* 
     #navbar #logo {
         background-color: #e07431;
         width: 100%;
@@ -575,15 +576,16 @@ span {
         color: #f4f0ec;
         text-align: center;
        
-    }
+    } */
 
     
-#navbar a {
+/* #navbar a {
     font-size: 20px;
-}
+} */
 
 #navbar {
     flex-direction: column;
+    border: 3px solid green;
 }
 
 
@@ -653,7 +655,7 @@ span {
 
 
 #hero h2 {
-    font-size: 8vwpx;
+    font-size: 8px;
   
 }
 
@@ -663,7 +665,8 @@ span {
 }
 
 #navbar a {
-    display: inline-block;
+    visibility: hidden;
+    /* display: inline-block;
     text-decoration: none;
     color: #e07431;
     padding: 24px;
@@ -672,7 +675,7 @@ span {
     text-shadow: 2px 1px #292828cf;
     font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
     font-weight: 900;
-   
+    */
 }
 
 
@@ -911,8 +914,6 @@ span {
 
 
 @media screen and (min-width: 1001px)  {
-
-  
     .hero-content {
         gap: 10px;
         position: relative;
@@ -969,17 +970,6 @@ span {
 
 /*Binya page end*/
 
-
-
- 
-
-
- 
-
-
-
 }
-
-
 
 /* Mobile responsiveness end */
