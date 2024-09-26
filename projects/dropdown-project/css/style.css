@@ -14,16 +14,11 @@
 #navbar {
     background-image: url("../images/final.webp"); 
     display: flex;
-    align-items: center;
     background-size: contain;
-    
-   
 }
 
-
-
-#navbar a {
-    display: inline-block;
+ #navbar a {
+    display: inline-block;  
     text-decoration: none;
     color: #e07431;
     padding: 24px;
@@ -32,9 +27,7 @@
     text-shadow: 2px 1px #292828cf;
     font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
     font-weight: 900;
-   
-}
-
+} 
 
 #navbar #logo {
     margin-right: auto;
@@ -44,9 +37,12 @@
     padding-bottom: 12px;
     letter-spacing: 1.5px;
     font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
-     position: relative;
-     z-index: 2;
-     
+    position: relative;
+    z-index: 2;
+}
+
+ul {
+    display: flex;
 }
 
 
@@ -54,8 +50,8 @@
 .dropdown-container {
     position: relative;
     z-index: 1;
-    
-}
+} 
+
 
 .dropdown-menu {
     position: absolute;
@@ -77,13 +73,11 @@
     color: #292828;
     text-shadow: 1px 1px #e1d6ce;
     font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
-   
 }
 
 #navbar .dropdown-menu a:hover {
     background-color: #e07431;
-    color:#f9f5f9;
-    
+    color:#f9f5f9;    
 }
 
 .dropdown-container:hover .dropdown-menu {
@@ -92,6 +86,12 @@
 }
 
 /* End dropdown menu */
+
+/* Code for mobile navbars */
+
+.fa-bars {
+    visibility: hidden;
+}
 
 /* Hero code start */
 
@@ -102,7 +102,6 @@
     align-content: center;
     justify-content: center;
     aspect-ratio: 16/8;
-  
 }
 
 .video-bg {
@@ -111,9 +110,7 @@
     left: 0;
     width: 100%;
     height: auto;
-    z-index: -1;
-   
-   
+    z-index: -1; 
 } 
 
 
@@ -568,26 +565,57 @@ span {
 
 @media screen and (max-width: 1000px) {
 
-/* 
+
     #navbar #logo {
-        background-color: #e07431;
         width: 100%;
         font-size: 35px;
         color: #f4f0ec;
-        text-align: center;
-       
-    } */
+        text-align: center; 
+    } 
 
-    
-/* #navbar a {
-    font-size: 20px;
-} */
+.fa-bars {
+    color: #f4f0ec;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px #292828cf;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.flexbars {
+    display: flex;
+}
 
 #navbar {
     flex-direction: column;
-    border: 3px solid green;
+    background-size: 4rem;
+    height: 3.4rem;
+    background: #e07431;
 }
 
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1; 
+} 
+
+ul {
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+}
+
+ul a {
+    background: green;
+    width: 8rem;
+    height: 3rem;
+}
 
 #about-h2 {
     font-size: 40px;
@@ -608,12 +636,9 @@ span {
     
 }
     
-
-
 .flex-animals {
-  flex-direction:column;
+  flex-direction: column;
   gap: 10px;
- 
 }
 
 #owlboi {
@@ -652,56 +677,66 @@ span {
     width: 250px;
 }
 
-
-
 #hero h2 {
-    font-size: 8px;
-  
+    font-size: 4rem;
 }
 
-.dropdown-container:hover .dropdown-menu {
+ .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
-}
+} 
 
 #navbar a {
-    visibility: hidden;
-    /* display: inline-block;
-    text-decoration: none;
+    visibility: visible; /*To make links visible */
+    text-decoration: none; 
     color: #e07431;
-    padding: 24px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 1.2rem;
     letter-spacing: 1.5px;
     text-shadow: 2px 1px #292828cf;
     font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
     font-weight: 900;
-    */
-}
+   
+}  
+
 
 
 #navbar #logo {
-    margin-right: auto;
+    /* margin-right: auto; */
     font-weight: bold;
-    font-size: 46px;
+    font-size: 1.9rem;
     padding-top: 13px;
     padding-bottom: 12px;
     letter-spacing: 1.5px;
     font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
     position: relative;
     z-index: 2;
+    visibility: visible;
+    
 }
 
-
+/* 
 .dropdown-menu a {
     background-color: #f9f5f9d7; 
     min-width: 100px;
-    line-height: 30px;
-    text-align: center;
-}
+    line-height: 20px;
+    position: relative;
+    left: 8rem;
+    bottom: 3rem; 
+} */
 
-#navbar .dropdown-menu a {
-    font-size: 20px;
-}
+  .dropdown-menu a {
+    font-size: 1.2rem;
+    /* background-color: #f9f5f9d7;*/
+    background: red;
+    min-width: 100px;
+    line-height: 20px;
+    position: relative;
+    left:5.23rem;
+    bottom: 2.5rem;
+} 
+ 
+
 
 /* Animal pages start */
 .centered-layout {
@@ -712,14 +747,10 @@ span {
     width: 350px;
 }
 
-
 .bio {
   line-height: 30px;
   font-size: 22px;
 }
-
-
-
 
 /* Nina page end */
 
@@ -728,13 +759,11 @@ span {
     width: 100%;
     display: block;
     margin: 0 auto;
-   
 } 
 
 /* Nnedi page end */
 
 /* Binya page start */
-
 
 #frog-img {
     width: 400px;
