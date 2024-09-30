@@ -17,7 +17,7 @@
     background-size: contain;
 }
 
- #navbar a {
+ /* #navbar a {
     display: inline-block;  
     text-decoration: none;
     color: #e07431;
@@ -27,7 +27,7 @@
     font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
     font-weight: 900;
     font-size: 1.2rem;
-} 
+}  */
 
 #navbar #logo {
     margin-right: auto;
@@ -586,15 +586,13 @@ span {
     background-size: contain;
 }
 
-
-
 .video-bg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: auto;
-    z-index: -1; 
+    z-index: -1;
 } 
 
 ul {
@@ -602,6 +600,7 @@ ul {
     z-index: 1;
     flex-direction: column;
     bottom: .1rem;
+    gap: 1rem;
 }
 
 #about-h2 {
@@ -620,7 +619,6 @@ ul {
     text-align: center;
     font-weight: 400;
     width: 400px;
-    
 }
     
 .flex-animals {
@@ -673,30 +671,6 @@ ul {
     visibility: visible;
 } 
 
-
-ul a {
-    background: #f9f5f990;
-    width: 9rem;
-    height: 3rem;  
-    position: relative;
-    z-index: 1;
-    color: #e07431; 
-    text-decoration: none; 
-    padding: 10px;
-    font-size: 1.2rem;
-    letter-spacing: 1.5px;
-    text-shadow: 1px 1px #292828cf;
-    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
-    font-weight: 900;
-    
-}
-
-
-ul a:hover {
-    background: #e07431;
-    color: #f9f5f9;
-}
-
 #navbar #logo {
     /* margin-right: auto; */
     font-weight: bold;
@@ -708,24 +682,37 @@ ul a:hover {
     position: relative;
     z-index: 2;
     visibility: visible;
+    text-decoration: none;
+    text-shadow: 1px 1px  #2d2b29;
 }
 
-  .dropdown-menu a {
+.dropdown-container a {
+    text-decoration: none;
+    font-family:Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: 900;
     font-size: 1.2rem;
-    background: #f9f5f990;
-    /* min-width: 1rem; */
-    line-height: 20px;
+    padding: .5rem;
+    letter-spacing: .1rem ;
+   
+}
+
+.dropdown-container {
+    background-color: red;
+    width: 8rem;
+    display: block;
     position: relative;
-    left: 9rem;
-    bottom: 3rem;
-    z-index: 1; 
-    cursor: pointer;
-} 
+    z-index: 1;
+  
+}
+
+
+
+
 
 #navbar .dropdown-menu a:hover {
     background-color: #f9f9f9;
     color:#e07431;    
-}
+} 
 
 /* Animal pages start */
 .centered-layout {
