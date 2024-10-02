@@ -1,17 +1,20 @@
-const toggleBttn = document.getElementsByClassName("fa-bars");
-// const checkBlock = document.getElementsByClassName("dropdown");
-const dropDown = document.getElementsByClassName("dropdown");
+// //Pseudo code
 
-document.addEventListener("click", openMenu);
-function openMenu() {
-    if (dropDown.style.display === "none" || getComputedStyle(dropDown).display === "none") {
-        dropDown.style.display = "block";
-    } else {
-        dropDown.style.display = "none";
-    }
+// //I want to target the menu button to show the dropdown menu
 
-  
-}
+// // //If fa-bars is clicked show .dropdown menu
+
+// //Creating the variables for the menu icon and the dropdown menu
+ const toggleButton = document.querySelector(".fa-bars");
+ const dropDown = document.querySelector("#dropdownMenu");
+
+//Event listener
+ toggleButton.addEventListener("click", openMenu() {
+ )
+ }
+
+
+
 
 
 
