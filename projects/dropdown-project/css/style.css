@@ -576,7 +576,7 @@ span {
 
     .fa-bars {
     color: #e07431;
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
     padding: 1rem;
