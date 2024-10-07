@@ -706,6 +706,11 @@ span {
 
     }
 
+    .show {
+        opacity: 1;
+        visibility: visible;
+    }
+
     .dropdown-menu a:hover {
         color:#e07431;
         background: #f9f5f9;

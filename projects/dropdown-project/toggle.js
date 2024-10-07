@@ -1,16 +1,6 @@
-const toggleButton = document.querySelector(".fa-bars");
-const dropdownMenu = document.querySelector("#dropdownMenu");
+const menuBars = document.getElementsByClassName("fa-bars");
+const displayMenu = document.getElementById("dropdownMenu");
 
-toggleButton.addEventListener("click", function openMenu() {
-    alert("This was clicked");
-});
-
-   
-
-
-
-
-
-
-
-
+function openMenu () {
+    menuBars.style.color = "blue";
+}
