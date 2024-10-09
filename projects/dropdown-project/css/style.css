@@ -701,6 +701,10 @@ span {
         display: none;
     }
 
+    .ninnna {
+        width: 2rem;
+    }
+
     #dropdownMenu a {
         font-size: 1.2rem;
 
