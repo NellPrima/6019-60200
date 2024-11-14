@@ -576,7 +576,7 @@ span {
         text-align: center; 
     } 
 
-    #button img {
+    #button {
     color: #e07431;
     position: absolute;
     left: 1rem;
@@ -586,13 +586,7 @@ span {
     height: 40px;
     visibility: visible;
     cursor: pointer;
-    }
-
-    #button {
-        background: none;
-        border: none;
-        padding:0;
-        cursor: pointer;
+    background-color: yellow;
     }
 
     .flexbars {

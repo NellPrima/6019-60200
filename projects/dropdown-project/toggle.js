@@ -1,5 +1,5 @@
 const aMenu = document.getElementById("aMenu");
-const menuBttn = document.getElementById("menu_bttn");
+
 const button = document.getElementById("button");
 
 
@@ -19,6 +19,7 @@ function openMenu() {
 }
 
  button.addEventListener("click", function () {
+
      const computedStyle = window.getComputedStyle(aMenu);
      if (computedStyle.visibility === "hidden") {
          openMenu();
