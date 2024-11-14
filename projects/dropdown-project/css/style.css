@@ -50,9 +50,11 @@ ul {
 
 
 
-#dropdownMenu {
+#aMenu {
     position: relative;
     z-index: 1;
+    border: 5px solid blue;
+    visibility: hidden;
 } 
 
 .maina:hover {
@@ -76,7 +78,7 @@ ul .dropdown-menu {
     text-align: center;
 } 
 
-#dropdownMenu a:hover {
+#aMenu a:hover {
     color:#e07431;
     background: #f9f5f9;
 } 
@@ -105,7 +107,7 @@ ul .dropdown-menu {
 
 /* Code for mobile navbars */
 
-.fa-bars {
+#menu_bttn {
     visibility: hidden;
 }
 
@@ -574,18 +576,24 @@ span {
         text-align: center; 
     } 
 
-    .fa-bars {
+    #button img {
     color: #e07431;
     position: absolute;
-    left: 0;
-    top: 0;
-    padding: 1rem;
-    font-size: 1.5rem;
-    text-shadow: 1px 1px #292828cf;
+    left: 1rem;
+    top: .5rem;
+    bottom: 10.2rem;
+    width: 40px;
+    height: 40px;
     visibility: visible;
     cursor: pointer;
     }
 
+    #button {
+        background: none;
+        border: none;
+        padding:0;
+        cursor: pointer;
+    }
 
     .flexbars {
     display: flex;
@@ -695,17 +703,17 @@ span {
     text-shadow: 1px 1px  #2d2b29;
     }
 
-    #dropdownMenu {
+    #aMenu {
         background-color: #f9f5f93e;
         width: 10rem;
-        display: none;
+        visibility: hidden;
     }
 
     .ninnna {
         width: 2rem;
     }
 
-    #dropdownMenu a {
+    #aMenu a {
         font-size: 1.2rem;
 
     }
@@ -719,6 +727,7 @@ span {
         color:#e07431;
         background: #f9f5f9;
     } 
+
 
   
 
