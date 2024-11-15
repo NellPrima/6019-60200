@@ -17,17 +17,17 @@
     background-size: contain;
 }
 
- .dropdown-container a {
+   .dropdown-container a {
     display: inline-block;   
     text-decoration: none;
     color: #e07431;
-    padding: 24px;
+    padding: 1rem;
     letter-spacing: 1.5px;
     text-shadow: 2px 1px #292828cf;
     font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
     font-weight: 900;
     font-size: 1.5rem;
-}  
+}    
 
 #navbar #logo {
     margin-right: auto;
@@ -42,73 +42,6 @@
     text-decoration: none;
     color: #e07431;
     text-shadow: 1px 1.5px 1px #242322;
-}
-
-ul {
-    display: flex;
-}
-
-
-
-#aMenu {
-    position: relative;
-    z-index: 1;
-    border: 5px solid blue;
-    visibility: hidden;
-} 
-
-.maina:hover {
-    color: #f9f5f9;
-    background: #e07431;
-}
-
-.dropdown-menu {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    transition: 
-        opacity 0.25s,
-        visibility 0.25s;
-}
-
-ul .dropdown-menu {
-    flex-direction: column;
-    width: 8rem;
-    line-height: 1.5rem;
-    text-align: center;
-} 
-
-#aMenu a:hover {
-    color:#e07431;
-    background: #f9f5f9;
-} 
-
-.dropdown-menu a {
-    background-color: #f9f5f990; 
-    width: 100%;
-    /* min-width: 3px; */
-    font-size: 20px;
-}
-
- .dropdown-menu a {
-    color: #292828;
-    text-shadow: 1px 1px #e1d6ce;
-    font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
-}
-
-
-#adopt:hover .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-
-}
-
-/* End dropdown menu */
-
-/* Code for mobile navbars */
-
-#menu_bttn {
-    visibility: hidden;
 }
 
 /* Hero code start */
@@ -148,8 +81,6 @@ ul .dropdown-menu {
     gap: 20px;
     position: relative;
     top: 60%;
-   
- 
 }
 
 .wish {
@@ -157,7 +88,7 @@ ul .dropdown-menu {
     border-radius: 5px;
     color:#d47a42;
     font-size: 20px;
-    display: inline-block;
+    display: inline-block;  
     background-color: white;
     text-decoration: none;
     width: 350px;
@@ -356,7 +287,6 @@ span {
     font-family: Quicksand;
     font-weight: 500;
     color:#e07431;
-   
 }
 
 .one {
@@ -392,7 +322,6 @@ span {
     margin: 0 auto;
     background-color: #f9f5f9;
     height: 100%;
-   
 }
 
 #newbg img {
@@ -401,7 +330,6 @@ span {
     margin-top: 50px;
     /* border: 6px solid #e07431; */
     filter: drop-shadow(2px 2px 2px #242322);
-   
 }
 
 #newbg h2 {
@@ -428,7 +356,6 @@ span {
    margin-bottom: 50px;
    border-radius: 2%;
    border: 4px solid #e1d6ce;
-   
 }
 
 .money-text {
@@ -464,7 +391,6 @@ span {
 #money-donate {
    padding-left: 20px;
    padding-right: 20px;
-
 }
 
 .name-name {
@@ -486,7 +412,6 @@ span {
 .fa-credit-card {
     color: #e07431;
     font-size: 25px;
-    
 }
 
 #cash {
@@ -507,8 +432,6 @@ span {
     padding-bottom: 15px;
     width: 80px;
 }
-
-
 
 #submit {
     color: white;
@@ -555,8 +478,6 @@ span {
     color:#e07431;
     font-family: Quicksand;
     padding-top: 5px;
-   
-
 }
 
 /* Footer code end */
@@ -576,181 +497,222 @@ span {
         text-align: center; 
     } 
 
-    #button {
-    color: #e07431;
-    position: absolute;
-    left: 1rem;
-    top: .5rem;
-    bottom: 10.2rem;
-    width: 40px;
-    height: 40px;
-    visibility: visible;
-    cursor: pointer;
-    background-color: yellow;
-    }
+    /*copy here for other pages*/
 
-    .flexbars {
-    display: flex;
-    }
-
-    #navbar {
-    flex-direction: column;
-    background-size: 4rem;
-    height: 3.4rem;
-    background-image: url("../images/final.webp"); 
-    background-size: contain;
-    }
-
-    .video-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    } 
-
-    ul {
-    position: relative;
-    z-index: 1;
-    flex-direction: column;
-    bottom: .1rem;
-    gap: .5rem;
-    }
-
-    #about-h2 {
-    font-size: 40px;
-    }
-
-    .text-animals {
-    display: flex;
-    gap: 18px;
-    flex-direction: row;
-    } 
-
-    .animal-paragraph {
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    font-weight: 400;
-    width: 400px;
-    }
-
-    .flex-animals {
-    flex-direction: column;
-    gap: 10px;
-    }
-
-    #owlboi {
-    flex-direction: column-reverse;
-    }
-
-    #ladydog {
-    width: 40vw;
-    border-radius: 2%;
-    }
-
-    .animal-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    } 
-
-    #hero {
-    position: relative;
-    overflow-y: hidden;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    }
-
-
-    .hero-content {
-    gap: 10px;
-    position: relative;
-    top: 48%;
-    }
-
-
-    .wish {
-    font-size: 12px;
-    width: 250px;
-    }
-
-    #hero h2 {
-    font-size: 4rem;
-    }
-
-
-    #navbar #logo {
-    /* margin-right: auto; */
-    font-weight: bold;
-    font-size: 1.9rem;
-    padding-top: 13px;
-    padding-bottom: 12px;
-    letter-spacing: 1.5px;
-    font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
-    position: relative;
-    z-index: 2;
-    visibility: visible;
-    text-decoration: none;
-    text-shadow: 1px 1px  #2d2b29;
-    }
-
-    #aMenu {
-        background-color: #f9f5f93e;
-        width: 10rem;
-        visibility: hidden;
-    }
-
-    .ninnna {
-        width: 2rem;
-    }
-
-    #aMenu a {
-        font-size: 1.2rem;
-
-    }
-
-    .show {
-        opacity: 1;
+        .fa-bars {
+        color: #e07431;
+        position: absolute;
+        padding: 1rem;
+        font-size: 1.6rem;
         visibility: visible;
-    }
+        cursor: pointer;
+        z-index: 3;
+        }
 
-    .dropdown-menu a:hover {
-        color:#e07431;
-        background: #f9f5f9;
-    } 
+        #aMenu a {
+            font-size: 1.3rem;
+            text-shadow: 1px 1px 1px #242322;
+        }
+
+        
+        ul #second-menu {
+            width: 18rem;
+            line-height: 1.5rem;
+            margin-top: 1rem;
+            margin-left: 10rem;
+        }
+
+        #second-menu {
+            flex-direction: column;
+            position: absolute;
+            opacity: 0;
+            visibility: hidden;
+            transition: 
+                opacity 0.25s,
+                visibility 0.25s;
+
+        } 
+
+        #second-menu a {
+            background-color: #f9f5f93e;
+            width: 100%;
+            font-size: 1.2rem;
+            color: #292828;
+            text-shadow: 1px 1px #e1d6ce;
+            font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+        }
+
+        #second-menu a:hover {
+        color: #e07431;
+        }
+        
+
+        #adopt:hover #second-menu {
+            opacity: 1;
+            visibility: visible;
+
+        }  
+
+        /*copy here for other pages end*/
+
+        .flexbars {
+        display: flex;
+        }
+
+        #navbar {
+        flex-direction: column;
+        background-size: 4rem;
+        height: 3.4rem;
+        background-image: url("../images/final.webp"); 
+        background-size: contain;
+        }
+
+        .video-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            z-index: -1;
+        } 
+
+        ul {
+            position: relative;
+            z-index: 1;
+            flex-direction: column;
+            bottom: .1rem;
+     
+        }
+
+        #about-h2 {
+            font-size: 40px;
+        }
+
+        .text-animals {
+            display: flex;
+            gap: 18px;
+            flex-direction: row;
+        } 
+
+        .animal-paragraph {
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            font-weight: 400;
+            width: 400px;
+        }
+
+        .flex-animals {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #owlboi {
+            flex-direction: column-reverse;
+        }
+
+        #ladydog {
+            width: 40vw;
+            border-radius: 2%;
+        }
+
+        .animal-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        } 
+
+        #hero {
+            position: relative;
+            overflow-y: hidden;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
 
 
-  
+            .hero-content {
+            gap: 10px;
+            position: relative;
+            top: 48%;
+        }
 
-    #adopt:hover .dropdown-menu {
-        visibility: visible;
-        opacity: 1;
-    }  
+
+        .wish {
+            font-size: 12px;
+            width: 250px;
+        }
+
+        #hero h2 {
+            font-size: 4rem;
+        }
+
+
+        #navbar #logo {
+        /* margin-right: auto; */
+            font-weight: bold;
+            font-size: 1.9rem;
+            padding-top: 13px;
+            padding-bottom: 12px;
+            letter-spacing: 1.5px;
+            font-family: Lobster Two, Georgia, 'Times New Roman', Times, serif;
+            position: relative;
+            z-index: 2;
+            visibility: visible;
+            text-decoration: none;
+            text-shadow: 1px 1px  #2d2b29;
+        }
+
+         #aMenu {
+            background-color: #f9f5f93e;
+            width: 10rem;
+            visibility: hidden;
+            font-size: 1.2rem;
+        } 
+
+        .ninnna {
+            width: 2rem;
+        }
+
+        .show {
+            opacity: 1;
+            visibility: visible;
+        }
+/* 
+        .dropdown-menu a:hover {
+            color:#e07431;
+            background: #f9f5f9;
+        }   */
+
+
+    
+
+        /* #adopt:hover .dropdown-menu {
+            visibility: visible;
+            opacity: 1;
+        }   */
 
     /* Animal pages start */
     .centered-layout {
-    width: 90%;
+         width: 90%;
     }
 
     .image {
-    width: 350px;
+        width: 350px;
     }
 
     .bio {
-    line-height: 30px;
-    font-size: 22px;
+        line-height: 30px;
+        font-size: 22px;
     }
 
     /* Nina page end */
 
     /* Nnedi page start */
     #mermaid-img {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
     } 
 
     /* Nnedi page end */
@@ -758,11 +720,11 @@ span {
     /* Binya page start */
 
     #frog-img {
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    left: 0%; 
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        left: 0%; 
     } 
 
     /*Binya page end*/
@@ -770,23 +732,23 @@ span {
     /* volunteer code start */
 
     #single-three {
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 80px;
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 80px;
     }
 
     #howto {
-    font-size: 50px; 
+        font-size: 50px; 
     }
 
     .one {
-    text-align: center;
-    line-height: 40px;
+        text-align: center;
+        line-height: 40px;
     }
     .paragraph1 {
-    text-align: center;
-    line-height: 30px;
+        text-align: center;
+        line-height: 30px;
     }
 
     /* Volunteer code end */
@@ -796,129 +758,129 @@ span {
 
 
     .single-column-layout {
-    width: 80%;
-    border-radius: 5px; 
+        width: 80%;
+        border-radius: 5px; 
     }
 
     #newbg img {
-    width: 340px;  
+        width: 340px;  
     }
 
     #newbg h2 {
-    text-shadow: 1px 2px #2d2b29;
+        text-shadow: 1px 2px #2d2b29;
     }
 
     .flexmoney {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     } 
 
 
 
     .form {
-    width: 350px;
-    height: 700px;
-    margin-bottom: 50px;
-    border-radius: 2%;
-    border: 4px solid #e1d6ce;
+        width: 350px;
+        height: 700px;
+        margin-bottom: 50px;
+        border-radius: 2%;
+        border: 4px solid #e1d6ce;
 
     }
 
     .money-text {
-    font-size: 18px;
-    text-align: center;
+        font-size: 18px;
+        text-align: center;
     }
 
     .thanks {
-    font-size: 25px;
-    font-family: Ubuntu;
-    line-height: 30px;
-    color: #e07431;
-    text-shadow: 1px 1px #ede5e1;
-    padding-bottom: 20px;
+        font-size: 25px;
+        font-family: Ubuntu;
+        line-height: 30px;
+        color: #e07431;
+        text-shadow: 1px 1px #ede5e1;
+        padding-bottom: 20px;
     }
 
     /* Donation forum start  */
 
     .donation-header {
-    text-align: center;
-    color: #e07431;
-    font-size: 30px;
-    font-family: Quicksand;
-    font-weight: 600;
-    padding-top: 30px;
-    padding-bottom: 40px;
+        text-align: center;
+        color: #e07431;
+        font-size: 30px;
+        font-family: Quicksand;
+        font-weight: 600;
+        padding-top: 30px;
+        padding-bottom: 40px;
     }
 
     #money-donate {
-    padding-left: 20px;
-    padding-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
 
     }
 
     .name-name {
-    font-family: Ubuntu;
+        font-family: Ubuntu;
     }
 
     .first-name {
-    padding-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .last-name {
-    padding-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .email {
-    padding-bottom: 20px;
+        padding-bottom: 20px;
     }
 
     .fa-credit-card {
-    color: #e07431;
-    font-size: 25px;
+        color: #e07431;
+        font-size: 25px;
 
     }
 
     #cash {
-    margin-top: 20px;
+        margin-top: 20px;
     }
 
     #monies {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     #month-cvc {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-bottom: 15px;
-    width: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 15px;
+        width: 80px;
     }
 
     #submit {
-    color: white;
-    background-color: #e07431;
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
+        color: white;
+        background-color: #e07431;
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
     }
 
     .division {
-    display: flex;
-    gap: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+        display: flex;
+        gap: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     #what-div {
-    padding-top: 20px;
-    font-size: 16px;
+        padding-top: 20px;
+        font-size: 16px;
     }
 
     /* Donation forum end */
@@ -926,7 +888,11 @@ span {
     /* Donate page end */
 }
 
+/****************Desktop****************************************************Desktop************************/
+
 @media screen and (min-width: 1001px)  {
+
+ 
     .hero-content {
         gap: 10px;
         position: relative;
@@ -942,6 +908,79 @@ span {
         width: 900px;
         
     }
+
+    #aMenu {
+        position: relative;
+        z-index: 1; 
+        visibility: visible; 
+        display: flex;
+        gap: 2rem;
+        padding: 1.5rem 1rem 1rem 1rem;
+    } 
+    
+    #aMenu a {
+        visibility: visible;
+        font-size: 1.4rem;
+        color: #e07431;
+        text-decoration: none;
+        font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+        font-weight: 650;
+        text-shadow: 1px 1px 1px #242322;
+      
+    }
+
+
+
+     .dropdown-menu a {
+        visibility: visible;
+    } 
+
+    
+
+
+    .fa-bars {
+        visibility: hidden;
+    }
+
+    ul #second-menu {
+        width: 18rem;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+    }
+
+     #second-menu {
+        flex-direction: column;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+    
+      
+        transition: 
+            opacity 0.25s,
+            visibility 0.25s;
+
+    } 
+
+    #second-menu a {
+        background-color: #f9f5f990;  
+        width: 100%;
+        font-size: 1.2rem;
+        color: #292828;
+        text-shadow: 1px 1px #e1d6ce;
+        font-family: Quicksand, 'Trebuchet MS', 'Lucida Sans Unicode';
+    }
+
+    #second-menu a:hover {
+       color: #e07431;
+    }
+    
+
+  #adopt:hover #second-menu {
+    opacity: 1;
+    visibility: visible;
+
+}  
+
 
         
     /* Animal pages start */

@@ -1,6 +1,5 @@
 const aMenu = document.getElementById("aMenu");
-
-const button = document.getElementById("button");
+const secondBttn = document.querySelector(".fa-bars");
 
 
 function openMenu() {
@@ -18,15 +17,12 @@ function openMenu() {
     } 
 }
 
- button.addEventListener("click", function () {
-
+ secondBttn.addEventListener("click", function () {
      const computedStyle = window.getComputedStyle(aMenu);
      if (computedStyle.visibility === "hidden") {
          openMenu();
      }
-
      else if (computedStyle.visibility === "visible") {
          closeMenu();
      }
-
  });
