@@ -7,22 +7,31 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" type="image" href="images/dog.jpg">
+        <script src="https://kit.fontawesome.com/b9b6d2857e.js" crossorigin="anonymous"></script>
+    </head>
     </head>
     <body>
-        <div id="navbar">
-            <a href="index.html" id="logo">AdoptMePLZ</a>
-            <div class="dropdown-container">
-                <a href="index.html">Adopt</a>
-                <div class="dropdown-menu">
-                    <a href="nina.html">Nina</a>
-                    <a href="nnedi.html">Amiyah</a>
-                    <a href="enrico.html">Binyah Binyah Poliiwog</a>
-                </div>
-            </div>     
-            <a href="voulenteer.html">Voulenteer</a>
-            <a href="donate.html">Donate</a>
-        </div> 
-
+        <nav>
+            <div id="navbar"> 
+                <i class="fa-solid fa-bars"></i>
+                <a id="logo" href="index.html" >AdoptMePLZ</a>
+                <div id="allMenu">
+                    <ul id="aMenu" class="dropdown-container show">
+                        <li id="adopt"><a href="index.html" class="maina">Adopt</a>
+                            <ul id="second-menu">
+                                <li><a href="nina.html">Nina</a></li>
+                                <li><a href="nnedi.html">Amiyah</a></li>
+                                <li><a href="enrico.html">Binyah Binyah Poliiwog</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="maina" href="voulenteer.html">Volunteer</a></li>
+                        <li> <a class="maina" href="donate.html">Donate</a></li>
+                    </ul> 
+                </div>       
+            </div>               
+        </nav>
+        <main>
+            
         <!-- Main page content start -->
 
         <div class="background-image">
@@ -45,5 +54,7 @@
         <div class="footer3">
             <p>&copy; Copyright 2024 AdoptMePLZ coded by Nell Fonseca</p>
         </div> 
+        </main>
+
     </body>
 </html>

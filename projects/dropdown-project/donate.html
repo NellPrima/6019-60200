@@ -10,105 +10,103 @@
         <script src="https://kit.fontawesome.com/b9b6d2857e.js" crossorigin="anonymous"></script>
     </head>
     <body>
-      
-
-        <div id="newbg">
-            <h2>Donate</h2>
-            <div class="single-column-layout">
-                <div class="flexmoney">
-                    <img src="images/moneycat.jpg" alt="Cat surrounded by money">
-                    <p class="money-text">
-                        Your donation to AdoptMePLZ makes a world of difference for animals in need. Every contribution helps provide the essentials – nutritious food, stimulating toys, and even vital medical care. But AdoptMePLZ goes beyond basic needs. Their dedicated team uses donations to fund rescue expeditions, venturing into the harshest environments. Imagine brave volunteers braving the Arctic tundra, navigating lush rainforests, or even diving into the deepest ocean trenches – all to find rare and vulnerable animals who deserve a loving forever home. With your help, AdoptMePLZ can extend their reach and offer a second chance to animals in every corner of the globe.
-
-                    </p>
-
-                    <!-- Code for donation form thingy -->
-                     <div class="form" id="money-donate">
-                        <h3 class="donation-header">
-                            Donation Form
-                        </h3>
-
-                        <div class="first-name">
-                            <label for="name" class="name-name" >Enter your first name:</label>
-                            <input type="text" name="name" id="fname" placeholder="First Name" required>
-                        </div>
-
-                        <div class="last-name">
-                            <label for="name" class="name-name" >Enter your last name:</label>
-                            <input type="text" name="name" id="lname" placeholder="Last Name" required>
-                        </div>
-
-                        <div class="email">
-                            <label for="email" class="name-name">Enter your email: </label>
-                            <input type="email" name="email" id="email"
-                             placeholder="ex: myname@example.com" required />
-                        </div>
-
-                        <div class="phone">
-                            <label for="email" class="name-name">Enter your phone number: </label>
-                            <input type="email" name="email" id="email" placeholder="(000-000-0000)" required />
-
-                        </div>
-
-                        <h4 class="name-name" id="what-div">
-                            What division are you donating to?
-                        </h4>
-
-                        <div class="division">
-                            <input type="radio" id="forfood" name="donationtype" value="Food">
-                            <label class="name-name" for="food">Food</label>
-                            <input type="radio" id="fortoys" name="donationtype" value="Toys"> 
-                            <label class="name-name" for="toys">Toys</label>
-                            <input type="radio" id="fortrips" name="donationtype" value="expeditions"> 
-                            <label class="name-name" for="trips">Expeditions</label>
-                        </div>
-
-                        <label id="howmuch"  for="currency-field" class="name-name"> How much will you be giving? </label> 
-                        <input id="cash" for="currency-field" type="text" placeholder="$0.00">
-
-                        <div id="monies">
-                            <i class="fa-solid fa-credit-card"></i>
-                            <input id="card-num" for="currency-field" type="text" placeholder="Card Number" >
-                        </div>
-
-                        <div id="month-cvc">
-                            <input id="card-num" for="currency-field" type="text" placeholder="MM/YY" >
-                            <input id="card-num" for="currency-field" type="text" placeholder="CVC" >
-
-                        </div>
-
-                        <div class="textarea-div">
-                            <textarea cols="120"  rows="4" style="max-width: 100%;">Enter text here</textarea>
-                        </div>
-
-                       
-
-                        <input class="name-name" id="submit" type="submit" value="Submit">
-                        
-                      
-                       
-                     </div>
-
-                     <p class="thanks">
-                        Thank you for your donation!
-                     </p>
-
+        <nav>
+            <div id="navbar"> 
+                <i class="fa-solid fa-bars"></i>
+                <a id="logo" href="index.html" >AdoptMePLZ</a>
+                <div id="allMenu">
+                    <ul id="aMenu" class="dropdown-container show">
+                        <li id="adopt"><a href="index.html" class="maina">Adopt</a>
+                            <ul id="second-menu">
+                                <li><a href="nina.html">Nina</a></li>
+                                <li><a href="nnedi.html">Amiyah</a></li>
+                                <li><a href="enrico.html">Binyah Binyah Poliiwog</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="maina" href="voulenteer.html">Volunteer</a></li>
+                        <li> <a class="maina" href="donate.html">Donate</a></li>
+                    </ul> 
+                </div>       
+            </div>               
+        </nav>
+        <main>
+            <div id="newbg">
+                <h2>Donate</h2>
+                <div class="single-column-layout">
+                    <div class="flexmoney">
+                        <img src="images/moneycat.jpg" alt="Cat surrounded by money">
+                        <p class="money-text">
+                            Your donation to AdoptMePLZ makes a world of difference 
+                            for animals in need. Every contribution helps provide 
+                            the essentials nutritious food, stimulating toys, 
+                            and even vital medical care. But AdoptMePLZ goes beyond 
+                            basic needs. Their dedicated team uses donations to fund 
+                            rescue expeditions, venturing into the harshest environments. 
+                            Imagine brave volunteers braving the Arctic tundra, navigating 
+                            lush rainforests, or even diving into the deepest ocean 
+                            trenches all to find rare and vulnerable animals who deserve 
+                            a loving forever home. With your help, AdoptMePLZ can extend 
+                            their reach and offer a second chance to animals in every 
+                            corner of the globe.
+                        </p>
+                        <!-- Code for donation form thingy -->
+                         <div class="form" id="money-donate">
+                            <h3 class="donation-header">
+                                Donation Form
+                            </h3>
+                            <div class="first-name">
+                                <label for="name" class="name-name" >Enter your first name:</label>
+                                <input type="text" name="name" id="fname" placeholder="First Name" required>
+                            </div>
+                            <div class="last-name">
+                                <label for="name" class="name-name" >Enter your last name:</label>
+                                <input type="text" name="name" id="lname" placeholder="Last Name" required>
+                            </div>
+                            <div class="email">
+                                <label for="email" class="name-name">Enter your email: </label>
+                                <input type="email" name="email" id="email"
+                                 placeholder="ex: myname@example.com" required />
+                            </div>
+                            <div class="phone">
+                                <label for="email" class="name-name">Enter your phone number: </label>
+                                <input type="email" name="email" id="email" placeholder="(000-000-0000)" required />
+                            </div>
+                            <h4 class="name-name" id="what-div">
+                                What division are you donating to?
+                            </h4>
+                            <div class="division">
+                                <input type="radio" id="forfood" name="donationtype" value="Food">
+                                <label class="name-name" for="food">Food</label>
+                                <input type="radio" id="fortoys" name="donationtype" value="Toys"> 
+                                <label class="name-name" for="toys">Toys</label>
+                                <input type="radio" id="fortrips" name="donationtype" value="expeditions"> 
+                                <label class="name-name" for="trips">Expeditions</label>
+                            </div>
+                            <label id="howmuch"  for="currency-field" class="name-name"> How much will you be giving? </label> 
+                            <input id="cash" for="currency-field" type="text" placeholder="$0.00">
+                            <div id="monies">
+                                <i class="fa-solid fa-credit-card"></i>
+                                <input id="card-num" for="currency-field" type="text" placeholder="Card Number" >
+                            </div>
+                            <div id="month-cvc">
+                                <input id="card-num" for="currency-field" type="text" placeholder="MM/YY" >
+                                <input id="card-num" for="currency-field" type="text" placeholder="CVC" >
+                            </div>
+                            <div class="textarea-div">
+                                <textarea cols="120"  rows="4" style="max-width: 100%;">Enter text here</textarea>
+                            </div>
+                            <input class="name-name" id="submit" type="submit" value="Submit">
+                         </div>
+                         <p class="thanks">
+                            Thank you for your donation!
+                         </p>
+                    </div>
                 </div>
-               
-
             </div>
-            
-        </div>
-
-       
-
-         <div class="footer3">
-                    <p>&copy; Copyright 2024 AdoptMePLZ coded by Nell Fonseca</p>
-        </div> 
-
-
-
-
-
+             <div class="footer3">
+                        <p>&copy; Copyright 2024 AdoptMePLZ coded by Nell Fonseca</p>
+            </div> 
+        </main>
+        <script src="toggle.js"></script>
     </body>
 </html>
