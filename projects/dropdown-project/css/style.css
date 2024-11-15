@@ -67,7 +67,7 @@
 
 #hero h2 {
     font-size: 8vw;
-    margin-bottom: 5px;
+    margin-bottom: .5rem;
     font-family: Lobster Two, 'Trebuchet MS', 'Lucida Sans Unicode';
     color: #e07431;
 }
@@ -158,7 +158,7 @@
 }
 
 .background-image {
-   background-color: #d47a42;
+   background-color: #E1DBD6;
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -312,7 +312,7 @@ span {
 
 /* Donate code start */
 #newbg {
-    background-color: #e07431;
+    background-color: #5731e0;
     height: 100%;
     padding-bottom: 20px;
 }
@@ -472,10 +472,10 @@ span {
 }
 
 .footer3 {
-    background-color: #e1d6ce;
+    background-color: #e07431;
     height: 30px;
     text-align: center;
-    color:#e07431;
+    color:#e1d6ce;
     font-family: Quicksand;
     padding-top: 5px;
 }
@@ -527,6 +527,7 @@ span {
             position: absolute;
             opacity: 0;
             visibility: hidden;
+           
             transition: 
                 opacity 0.25s,
                 visibility 0.25s;
@@ -534,7 +535,8 @@ span {
         } 
 
         #second-menu a {
-            background-color: #f9f5f93e;
+          
+            background-color: #f9f5f978;
             width: 100%;
             font-size: 1.2rem;
             color: #292828;
@@ -574,6 +576,7 @@ span {
             width: 100%;
             height: auto;
             z-index: -1;
+           
         } 
 
         ul {
@@ -634,7 +637,7 @@ span {
             .hero-content {
             gap: 10px;
             position: relative;
-            top: 48%;
+            top: 29%;
         }
 
 
