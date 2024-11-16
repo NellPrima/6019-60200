@@ -339,7 +339,7 @@ span {
     padding-bottom: 20px;
     font-family: Quicksand;
     font-weight: 600;
-    color: #ede5e1;
+    color: #e07431;
     text-decoration: underline;
     font-size: 60px;
 }
@@ -637,7 +637,7 @@ span {
             .hero-content {
             gap: 10px;
             position: relative;
-            top: 29%;
+            top: 35%;
         }
 
 
