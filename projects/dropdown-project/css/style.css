@@ -889,6 +889,10 @@ span {
     /* Donation forum end */
 
     /* Donate page end */
+
+    #footer p {
+        font-size: .7rem;
+    }
 }
 
 /****************Desktop****************************************************Desktop************************/
